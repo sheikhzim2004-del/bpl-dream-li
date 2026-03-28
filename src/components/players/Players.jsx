@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayers from '../availablePlayers/AvailablePlayers';
 import SelectedPlayers from '../selectedPlayers/SelectedPlayers';
 
-const Players = ({playersPromiss}) => {
+const Players = ({playersPromiss, setcoin, coin}) => {
 
   const players = use(playersPromiss);
   const [selected, setSelected] = useState('available');
@@ -11,7 +11,7 @@ const Players = ({playersPromiss}) => {
     <div>
       <div className='flex gap-4 justify-between items-center text-center'>
         {selected === "available" ? <h2 className='text-2xl font-bold my-10'>Available Players</h2> : <h2 className='text-2xl font-bold my-10'>Selected (2/12)</h2>}
-        
+
         <div className='flex'>
           <button
           onClick={()=> setSelected("available")}
@@ -25,7 +25,11 @@ const Players = ({playersPromiss}) => {
       </div>
 
 
-      {selected==="available" ? <AvailablePlayers players={players}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
+      {selected==="available" ? <AvailablePlayers 
+      players={players} 
+      setcoin={setcoin}
+      coin={coin}
+      ></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
     </div>
   );
 };

@@ -7,7 +7,7 @@
     "rating": 9.5,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 95000,
+    "price": 950,
     "playerImage": "https://i.ibb.co.com/tMxs4Zg8/1696748634550-Shakib-Al-Hasan.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 92000,
+    "price": 920,
     "playerImage": "https://i.ibb.co.com/r2Qbqnb4/image.png"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 88000,
+    "price": 880,
     "playerImage": "https://i.ibb.co.com/ZzPZgdNF/image.png"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 9.1,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 87000,
+    "price": 870,
     "playerImage": "https://i.ibb.co.com/DHTpNfML/image.png"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.3,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
-    "price": 89000,
+    "price": 890,
     "playerImage": "https://i.ibb.co.com/93z5dzRC/image.png"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 91000,
+    "price": 910,
     "playerImage": "https://i.ibb.co.com/Wpg6G0Cs/image.png"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 9.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 97000,
+    "price": 900,
     "playerImage": "https://i.ibb.co.com/hFfdJYF7/image.png"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 88000,
+    "price": 880,
     "playerImage": "https://i.ibb.co.com/SD30gTpL/image.png"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 9.1,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": 90000,
+    "price": 900,
     "playerImage": "https://i.ibb.co.com/99SF2nyL/image.png"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 9.0,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": 86000,
+    "price": 800,
     "playerImage": "https://i.ibb.co.com/dJVKXP2k/image.png"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "None",
-    "price": 89000,
+    "price": 890,
     "playerImage": "https://i.ibb.co.com/NgGMcbF9/image.png"
   }
 ]
