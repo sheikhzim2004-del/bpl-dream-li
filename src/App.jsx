@@ -19,7 +19,7 @@ function App() {
     <>
       <div className='container  mx-auto'>
         <Navbar></Navbar>
-        <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+        <Suspense fallback={<div className='flex justify-center items-center h-screen'><span className="loading loading-dots loading-xl"></span></div>}>
           <Players playersPromiss={playersPromiss}></Players>
         </Suspense>
       </div>
