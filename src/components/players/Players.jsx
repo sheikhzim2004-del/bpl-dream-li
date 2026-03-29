@@ -6,7 +6,8 @@ const Players = ({playersPromiss, setcoin, coin}) => {
 
   const players = use(playersPromiss);
   const [selected, setSelected] = useState('available');
-  console.log(selected, 'selected');
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
+  // console.log(selected, 'selected');
   return (
     <div>
       <div className='flex gap-4 justify-between items-center text-center'>
@@ -29,7 +30,13 @@ const Players = ({playersPromiss, setcoin, coin}) => {
       players={players} 
       setcoin={setcoin}
       coin={coin}
-      ></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
+      selectedPlayers={selectedPlayers}
+      setSelectedPlayers={setSelectedPlayers}
+      ></AvailablePlayers> 
+      :
+      <SelectedPlayers
+      selectedPlayers={selectedPlayers}
+      ></SelectedPlayers>}
     </div>
   );
 };
