@@ -11,7 +11,7 @@ const Players = ({playersPromiss, setcoin, coin}) => {
   return (
     <div>
       <div className='flex gap-4 justify-between items-center text-center'>
-        {selected === "available" ? <h2 className='text-2xl font-bold my-10'>Available Players</h2> : <h2 className='text-2xl font-bold my-10'>Selected (2/12)</h2>}
+        {selected === "available" ? <h2 className='text-2xl font-bold my-10'>Available Players</h2> : <h2 className='text-2xl font-bold my-10'>Selected ({selectedPlayers.length}/{players.length})</h2>}
 
         <div className='flex'>
           <button
@@ -21,7 +21,7 @@ const Players = ({playersPromiss, setcoin, coin}) => {
           <button
           onClick={()=> setSelected("selected")}
           className={`btn rounded-l-none rounded-r-xl ${selected === "selected" ? "bg-[#E7FE29]" : ""}`}
-          >Selected (1)</button>
+          >Selected ({selectedPlayers.length})</button>
         </div>
       </div>
 
@@ -36,6 +36,9 @@ const Players = ({playersPromiss, setcoin, coin}) => {
       :
       <SelectedPlayers
       selectedPlayers={selectedPlayers}
+      setSelectedPlayers={setSelectedPlayers}
+      setcoin={setcoin}
+      coin={coin}
       ></SelectedPlayers>}
     </div>
   );
